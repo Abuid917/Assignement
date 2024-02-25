@@ -1,0 +1,27 @@
+class Passenger:
+    def __init__(self, name):
+        self.name = name
+    def get_name(self):
+        return self.name
+class Flight"
+    def __init__(self, flightNumber, origin, destination, date, departureTime, gates, seats):
+        self.flightNumber = flightNumber
+        self.origin = origin
+        self.destination = destination
+        self.date = date
+        self.departureTime = departureTime
+        self.gates = gates
+        self.seats = seats
+class BoardingPass:
+      def __init__(self, passenger, flight):
+          self.passenger = passenger
+          self.flight = flight
+      def generate_boarding_pass(self):
+          pass
+      def display_boarding_pass(self)
+          pass
+passenger1 = Passenger("JAMES SMITH")
+flight1 = Flight("NA4321", "CHICAGO ORD", "NEW YORK JFK", "06-DEC-20", "11:40", "03", "09A")
+boarding_pass1 = BoardingPass(passenger1, flight1)
+boarding_pass1.generate_boarding_pass()
+boarding_pass1.display_boarding_pass()
